@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo img{
+  width: 28%;
+  
+}
+
+
+
+.imagenes{
+  display: flex;
+  justify-content: center;
+  margin: 4%;
+}
+.imagenes img{
+  width: 70%;
+}
+
+
+
+.menu {
+  padding: 2%;
+}
+
+.navegacion{
+  background-color: #1a1c23;
+
+}
+
+.botones a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px;
+
+
+}
+
+.socialMedia{
+  background-color: #1a1c23;
+  text-align: center;
+  height: 10vh;
+  
+}
+
+.socialMedia img{
+  height: 30px;
+  width: 30px;
+  margin: 20px;
+}
+
+.productos {
+  display:flex;
+  flex-direction: column;
+}
+.productos div{
+ display: flex;
+ justify-content: center;
+ margin: 20px;
+ flex-wrap: wrap;
+
+}
+
+.productos div img{
+  height: 10%;
+  width: 10%;
+}
+.sombra{
+  margin: 30px;
+  box-shadow: 0px 8px 8px #1a1c2335;
+  border-radius: 200px;
+}
+
+@media (max-width:390px){
+  .logo img{
+      max-width:15%;
+  }
+
+
+
+  .banners{
+      height: 80vh;
+  }
+
+  .imagenes img{
+      display: block;
+      justify-content: center;
+  }
+
+  .socialMedia{
+      height: 50vh;
+  }
+
+  .productos{
+      margin: auto;
+      max-width: 80%;
+  }
+
+  .productos div{
+      overflow: scroll;
+      padding: 3px;
+      margin:10px;
+      flex-wrap: nowrap;
+  }
+
+  .productos div img{
+      margin: auto;
+     min-width: 30%;
+  }
+  .banner-lentes{
+      margin: auto;
+      min-width: 80px;
+  }
+
+}
+
+
+
+ .crearCuenta{
+   display: grid;
+   justify-content: center;
+ }
+
+ .beneficiosVoga h2{
+   padding-bottom: 50px;
+ }
+ 
+ .beneficiosVoga{
+   text-align: center;
+   margin: 20px;
+   padding: 10px;
+
+ }
+
+ .completar{
+   height: 958px;
+   width: 888px;
+   background-color: aliceblue;
+   border-radius: 52px;
+ }
+
+ .completar p{
+   padding-left: 200px;
+   padding-top: 200px;
+ }
+ .completar h3{
+  text-align: center;
+  padding: 20px;
+ }
+
+ .completar input{
+  padding-right: 30px;
+  display: block;
+  margin: 20px;
+  padding-left: 10px;
+ }
+
+ .completar div{
+  display: grid;
+  justify-content: center;
+ }
+ .boton{
+  display: grid;
+  justify-content: center;
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+   
