@@ -1,0 +1,25 @@
+header {
+    .navegacion {
+        background-color: #1a1c23;
+
+        .menu {
+            padding: 2%;
+
+            h1 {
+                a {
+                    img {
+                        width: 28%;
+                    }
+                }
+            }
+
+            .botones {
+                a {
+                    color: rgb(255, 255, 255);
+                    text-decoration: none;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}

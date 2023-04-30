@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/*home*/
+/*header*/
+header .navegacion {
+  background-color: #1a1c23; }
+  header .navegacion .menu {
+    padding: 2%; }
+    header .navegacion .menu h1 a img {
+      width: 28%; }
+    header .navegacion .menu .botones a {
+      color: white;
+      text-decoration: none;
+      padding: 10px; }
+
+/*css home*/
+main .imagenes {
+  display: flex;
+  justify-content: center;
+  margin: 4%; }
+  main .imagenes img {
+    width: 70%; }
+
+/*footer*/
+.social-media {
+  background-color: #1a1c23;
+  text-align: center;
+  height: 10vh; }
+  .social-media img {
+    height: 30px;
+    width: 30px;
+    margin: 20px; }
+
+/*lentes opticos*/
+/*header*/
+header .navegacion {
+  background-color: #1a1c23; }
+  header .navegacion .menu {
+    padding: 2%; }
+    header .navegacion .menu h1 a img {
+      width: 28%; }
+    header .navegacion .menu .botones a {
+      color: white;
+      text-decoration: none;
+      padding: 10px; }
+
+/*css lentesopticos*/
+/*banner*/
+.imagenes {
+  display: flex;
+  justify-content: center;
+  margin: 4%;
+  margin: auto;
+  min-width: 80px; }
+  .imagenes img {
+    width: 70%; }
+
+/*productos*/
+.productos {
+  display: flex;
+  flex-direction: column; }
+  .productos div {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap; }
+    .productos div img {
+      height: 10%;
+      width: 10%; }
+    .productos div .sombra {
+      margin: 30px;
+      box-shadow: 0px 8px 8px #1a1c2335;
+      border-radius: 200px; }
+
+/*footer*/
+.social-media {
+  background-color: #1a1c23;
+  text-align: center;
+  height: 10vh; }
+  .social-media img {
+    height: 30px;
+    width: 30px;
+    margin: 20px; }
+
+/*lentes de sol*/
+/*header*/
+header .navegacion {
+  background-color: #1a1c23; }
+  header .navegacion .menu {
+    padding: 2%; }
+    header .navegacion .menu h1 a img {
+      width: 28%; }
+    header .navegacion .menu .botones a {
+      color: white;
+      text-decoration: none;
+      padding: 10px; }
+
+/*css lentesdesol*/
+/*banner*/
+.imagenes {
+  display: flex;
+  justify-content: center;
+  margin: 4%;
+  margin: auto;
+  min-width: 80px; }
+  .imagenes img {
+    width: 70%; }
+
+/*productos*/
+.productos {
+  display: flex;
+  flex-direction: column; }
+  .productos div {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap; }
+    .productos div img {
+      height: 10%;
+      width: 10%; }
+    .productos div .sombra {
+      margin: 30px;
+      box-shadow: 0px 8px 8px #1a1c2335;
+      border-radius: 200px; }
+
+/*footer*/
+.social-media {
+  background-color: #1a1c23;
+  text-align: center;
+  height: 10vh; }
+  .social-media img {
+    height: 30px;
+    width: 30px;
+    margin: 20px; }
+
+/*join*/
+/*header*/
+header .navegacion {
+  background-color: #1a1c23; }
+  header .navegacion .menu {
+    padding: 2%; }
+    header .navegacion .menu h1 a img {
+      width: 28%; }
+    header .navegacion .menu .botones a {
+      color: white;
+      text-decoration: none;
+      padding: 10px; }
+
+/*css join*/
+body {
+  font-family: 'Krub', sans-serif; }
+  body .crear-cuenta {
+    display: grid;
+    justify-content: center; }
+    body .crear-cuenta .beneficios-voga {
+      text-align: center;
+      margin: 20px;
+      padding: 10px; }
+      body .crear-cuenta .beneficios-voga h2 {
+        padding-bottom: 50px; }
+    body .crear-cuenta .completar {
+      height: 958px;
+      width: 888px;
+      background-color: aliceblue;
+      border-radius: 52px; }
+      body .crear-cuenta .completar p {
+        padding-left: 200px;
+        padding-top: 200px; }
+      body .crear-cuenta .completar h3 {
+        text-align: center;
+        padding: 20px; }
+      body .crear-cuenta .completar input {
+        padding-right: 30px;
+        display: block;
+        margin: 20px;
+        padding-left: 10px; }
+      body .crear-cuenta .completar div {
+        display: grid;
+        justify-content: center; }
+      body .crear-cuenta .completar .boton {
+        display: grid;
+        justify-content: center; }
+
+/*footer*/
+.social-media {
+  background-color: #1a1c23;
+  text-align: center;
+  height: 10vh; }
+  .social-media img {
+    height: 30px;
+    width: 30px;
+    margin: 20px; }

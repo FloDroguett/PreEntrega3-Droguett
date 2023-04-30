@@ -1,0 +1,19 @@
+
+/*header*/
+@import"../html/header";
+
+/*css home*/
+
+main{
+    .imagenes{
+        display: flex;
+  justify-content: center;
+  margin: 4%;
+  img{
+    width: 70%;
+  }
+    }
+}
+
+/*footer*/
+@import"../html/footer";
