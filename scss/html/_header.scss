@@ -1,23 +1,30 @@
-header {
-    .navegacion {
-        background-color: #1a1c23;
+body {
+    font-family: $tipo-voga;
 
-        .menu {
-            padding: 2%;
+    header {
+        .navegacion {
+            background-color: $color-voga;
 
-            h1 {
-                a {
-                    img {
-                        width: 28%;
+            .menu {
+                padding: 2%;
+
+                h1 {
+                    a {
+                        img {
+                            width: 28%;
+                            @include mobile{
+                                max-width:15%;
+                            }
+                        }
                     }
                 }
-            }
 
-            .botones {
-                a {
-                    color: rgb(255, 255, 255);
-                    text-decoration: none;
-                    padding: 10px;
+                .botones {
+                    a {
+                        color: rgb(255, 255, 255);
+                        text-decoration: none;
+                        padding: 10px;
+                    }
                 }
             }
         }

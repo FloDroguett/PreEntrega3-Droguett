@@ -3,155 +3,220 @@
   margin: 0;
   box-sizing: border-box; }
 
+/*variables*/
+/*color voga*/
+/*font family*/
+/*mixin*/
 /*home*/
 /*header*/
-header .navegacion {
-  background-color: #1a1c23; }
-  header .navegacion .menu {
-    padding: 2%; }
-    header .navegacion .menu h1 a img {
-      width: 28%; }
-    header .navegacion .menu .botones a {
-      color: white;
-      text-decoration: none;
-      padding: 10px; }
+body {
+  font-family: "Krub", sans-serif; }
+  body header .navegacion {
+    background-color: #1a1c23; }
+    body header .navegacion .menu {
+      padding: 2%; }
+      body header .navegacion .menu h1 a img {
+        width: 28%; }
+        @media screen and (max-width: 400px) {
+          body header .navegacion .menu h1 a img {
+            max-width: 15%; } }
+      body header .navegacion .menu .botones a {
+        color: white;
+        text-decoration: none;
+        padding: 10px; }
 
 /*css home*/
-main .imagenes {
-  display: flex;
-  justify-content: center;
-  margin: 4%; }
-  main .imagenes img {
-    width: 70%; }
+body {
+  font-family: "Krub", sans-serif; }
+  @media screen and (max-width: 400px) {
+    body main {
+      height: 80vh; } }
+  body main .imagenes {
+    display: flex;
+    justify-content: center;
+    margin: 4%; }
+    body main .imagenes img {
+      width: 70%; }
 
 /*footer*/
-.social-media {
-  background-color: #1a1c23;
-  text-align: center;
-  height: 10vh; }
-  .social-media img {
-    height: 30px;
-    width: 30px;
-    margin: 20px; }
+body {
+  font-family: "Krub", sans-serif; }
+  body .social-media {
+    background-color: #1a1c23;
+    text-align: center;
+    height: 10vh; }
+    body .social-media img {
+      height: 30px;
+      width: 30px;
+      margin: 20px; }
 
 /*lentes opticos*/
 /*header*/
-header .navegacion {
-  background-color: #1a1c23; }
-  header .navegacion .menu {
-    padding: 2%; }
-    header .navegacion .menu h1 a img {
-      width: 28%; }
-    header .navegacion .menu .botones a {
-      color: white;
-      text-decoration: none;
-      padding: 10px; }
+body {
+  font-family: "Krub", sans-serif; }
+  body header .navegacion {
+    background-color: #1a1c23; }
+    body header .navegacion .menu {
+      padding: 2%; }
+      body header .navegacion .menu h1 a img {
+        width: 28%; }
+        @media screen and (max-width: 400px) {
+          body header .navegacion .menu h1 a img {
+            max-width: 15%; } }
+      body header .navegacion .menu .botones a {
+        color: white;
+        text-decoration: none;
+        padding: 10px; }
 
 /*css lentesopticos*/
-/*banner*/
-.imagenes {
-  display: flex;
-  justify-content: center;
-  margin: 4%;
-  margin: auto;
-  min-width: 80px; }
-  .imagenes img {
-    width: 70%; }
-
-/*productos*/
-.productos {
-  display: flex;
-  flex-direction: column; }
-  .productos div {
+body {
+  font-family: "Krub", sans-serif;
+  /*banner*/
+  /*productos*/ }
+  body .imagenes {
     display: flex;
     justify-content: center;
-    margin: 20px;
-    flex-wrap: wrap; }
-    .productos div img {
-      height: 10%;
-      width: 10%; }
-    .productos div .sombra {
-      margin: 30px;
-      box-shadow: 0px 8px 8px #1a1c2335;
-      border-radius: 200px; }
+    margin: 4%;
+    margin: auto;
+    min-width: 80px; }
+    body .imagenes img {
+      width: 70%; }
+  body .productos {
+    display: flex;
+    flex-direction: column; }
+    @media screen and (max-width: 400px) {
+      body .productos {
+        margin: auto;
+        max-width: 80%; } }
+    body .productos div {
+      display: flex;
+      justify-content: center;
+      margin: 20px;
+      flex-wrap: wrap; }
+      @media screen and (max-width: 400px) {
+        body .productos div {
+          overflow: scroll;
+          padding: 3px;
+          margin: 10px;
+          flex-wrap: nowrap; } }
+      body .productos div img {
+        height: 10%;
+        width: 10%; }
+        @media screen and (max-width: 400px) {
+          body .productos div img {
+            margin: auto;
+            min-width: 30%; } }
+      body .productos div .sombra {
+        margin: 30px;
+        box-shadow: 0px 8px 8px #1a1c2335;
+        border-radius: 200px; }
 
 /*footer*/
-.social-media {
-  background-color: #1a1c23;
-  text-align: center;
-  height: 10vh; }
-  .social-media img {
-    height: 30px;
-    width: 30px;
-    margin: 20px; }
+body {
+  font-family: "Krub", sans-serif; }
+  body .social-media {
+    background-color: #1a1c23;
+    text-align: center;
+    height: 10vh; }
+    body .social-media img {
+      height: 30px;
+      width: 30px;
+      margin: 20px; }
 
 /*lentes de sol*/
 /*header*/
-header .navegacion {
-  background-color: #1a1c23; }
-  header .navegacion .menu {
-    padding: 2%; }
-    header .navegacion .menu h1 a img {
-      width: 28%; }
-    header .navegacion .menu .botones a {
-      color: white;
-      text-decoration: none;
-      padding: 10px; }
+body {
+  font-family: "Krub", sans-serif; }
+  body header .navegacion {
+    background-color: #1a1c23; }
+    body header .navegacion .menu {
+      padding: 2%; }
+      body header .navegacion .menu h1 a img {
+        width: 28%; }
+        @media screen and (max-width: 400px) {
+          body header .navegacion .menu h1 a img {
+            max-width: 15%; } }
+      body header .navegacion .menu .botones a {
+        color: white;
+        text-decoration: none;
+        padding: 10px; }
 
 /*css lentesdesol*/
 /*banner*/
-.imagenes {
-  display: flex;
-  justify-content: center;
-  margin: 4%;
-  margin: auto;
-  min-width: 80px; }
-  .imagenes img {
-    width: 70%; }
-
-/*productos*/
-.productos {
-  display: flex;
-  flex-direction: column; }
-  .productos div {
+body {
+  font-family: "Krub", sans-serif;
+  /*productos*/ }
+  body .imagenes {
     display: flex;
     justify-content: center;
-    margin: 20px;
-    flex-wrap: wrap; }
-    .productos div img {
-      height: 10%;
-      width: 10%; }
-    .productos div .sombra {
-      margin: 30px;
-      box-shadow: 0px 8px 8px #1a1c2335;
-      border-radius: 200px; }
+    margin: 4%;
+    margin: auto;
+    min-width: 80px; }
+    body .imagenes img {
+      width: 70%; }
+  body .productos {
+    display: flex;
+    flex-direction: column; }
+    @media screen and (max-width: 400px) {
+      body .productos {
+        margin: auto;
+        max-width: 80%; } }
+    body .productos div {
+      display: flex;
+      justify-content: center;
+      margin: 20px;
+      flex-wrap: wrap; }
+      @media screen and (max-width: 400px) {
+        body .productos div {
+          overflow: scroll;
+          padding: 3px;
+          margin: 10px;
+          flex-wrap: nowrap; } }
+      body .productos div img {
+        height: 10%;
+        width: 10%; }
+        @media screen and (max-width: 400px) {
+          body .productos div img {
+            margin: auto;
+            min-width: 30%; } }
+      body .productos div .sombra {
+        margin: 30px;
+        box-shadow: 0px 8px 8px #1a1c2335;
+        border-radius: 200px; }
 
 /*footer*/
-.social-media {
-  background-color: #1a1c23;
-  text-align: center;
-  height: 10vh; }
-  .social-media img {
-    height: 30px;
-    width: 30px;
-    margin: 20px; }
+body {
+  font-family: "Krub", sans-serif; }
+  body .social-media {
+    background-color: #1a1c23;
+    text-align: center;
+    height: 10vh; }
+    body .social-media img {
+      height: 30px;
+      width: 30px;
+      margin: 20px; }
 
 /*join*/
 /*header*/
-header .navegacion {
-  background-color: #1a1c23; }
-  header .navegacion .menu {
-    padding: 2%; }
-    header .navegacion .menu h1 a img {
-      width: 28%; }
-    header .navegacion .menu .botones a {
-      color: white;
-      text-decoration: none;
-      padding: 10px; }
+body {
+  font-family: "Krub", sans-serif; }
+  body header .navegacion {
+    background-color: #1a1c23; }
+    body header .navegacion .menu {
+      padding: 2%; }
+      body header .navegacion .menu h1 a img {
+        width: 28%; }
+        @media screen and (max-width: 400px) {
+          body header .navegacion .menu h1 a img {
+            max-width: 15%; } }
+      body header .navegacion .menu .botones a {
+        color: white;
+        text-decoration: none;
+        padding: 10px; }
 
 /*css join*/
 body {
-  font-family: 'Krub', sans-serif; }
+  font-family: "Krub", sans-serif; }
   body .crear-cuenta {
     display: grid;
     justify-content: center; }
@@ -185,11 +250,13 @@ body {
         justify-content: center; }
 
 /*footer*/
-.social-media {
-  background-color: #1a1c23;
-  text-align: center;
-  height: 10vh; }
-  .social-media img {
-    height: 30px;
-    width: 30px;
-    margin: 20px; }
+body {
+  font-family: "Krub", sans-serif; }
+  body .social-media {
+    background-color: #1a1c23;
+    text-align: center;
+    height: 10vh; }
+    body .social-media img {
+      height: 30px;
+      width: 30px;
+      margin: 20px; }

@@ -1,5 +1,9 @@
+
+body{
+     font-family: $tipo-voga;
+
 .social-media{
-    background-color: #1a1c23;
+    background-color: $color-voga;
   text-align: center;
   height: 10vh;
   img{
@@ -7,4 +11,5 @@
     width: 30px;
     margin: 20px;
   }
+}
 }

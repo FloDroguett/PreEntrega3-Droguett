@@ -4,49 +4,71 @@
 
 /*css lentesopticos*/
 
-/*banner*/
+body {
+    font-family: $tipo-voga;
+    /*banner*/
 
-.imagenes {
-    display: flex;
-    justify-content: center;
-    margin: 4%;
-    margin: auto;
-    min-width: 80px;
-
-    img {
-        width: 70%;
-    }
-
-}
-
-/*productos*/
-
-.productos {
-
-    display: flex;
-    flex-direction: column;
-
-    div {
+    .imagenes {
         display: flex;
         justify-content: center;
-        margin: 20px;
-        flex-wrap: wrap;
+        margin: 4%;
+        margin: auto;
+        min-width: 80px;
 
         img {
-            height: 10%;
-            width: 10%;
+            width: 70%;
         }
 
-        .sombra {
+    }
 
-            margin: 30px;
-            box-shadow: 0px 8px 8px #1a1c2335;
-            border-radius: 200px;
+    /*productos*/
 
+    .productos {
+
+        display: flex;
+        flex-direction: column;
+
+        @include mobile {
+
+            margin: auto;
+            max-width: 80%;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            flex-wrap: wrap;
+
+            @include mobile {
+
+                overflow: scroll;
+                padding: 3px;
+                margin: 10px;
+                flex-wrap: nowrap;
+
+            }
+
+            img {
+                height: 10%;
+                width: 10%;
+
+                @include mobile {
+                    margin: auto;
+                    min-width: 30%;
+                }
+            }
+
+            .sombra {
+
+                margin: 30px;
+                box-shadow: 0px 8px 8px #1a1c2335;
+                border-radius: 200px;
+
+            }
         }
     }
 }
-
 
 /*footer*/
 @import"../html/footer";
